@@ -19,8 +19,8 @@ setTimeout(function() {
     if (controllo) {
       numeriUtente.push(risposteUtente);
     }
-
   }
+
   // Dopo che sono stati inseriti i 5 numeri, il software dice quanti e quali dei numeri da indovinare sono stati individuati
   alert('Hai indovinato' + ' ' + numeriUtente.length + ' ' + ' numeri')
   alert('I numeri indovinati sono' + ' ' + numeriUtente)
