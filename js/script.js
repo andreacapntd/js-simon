@@ -12,9 +12,8 @@ alert('I numeri da ricordare sono' + ' ' + numeriCpu);
 setTimeout(function() {
   // Dopo 30 secondi l’utente deve inserire, un prompt alla volta, i numeri che ha visto precedentemente.
   var numeriUtente = [];
-  var risposteUtente;
   for (var i = 0; i < 5; i++) {
-    risposteUtente = parseInt(prompt('Inserisci il numero'))
+    var risposteUtente = parseInt(prompt('Inserisci il numero'));
     var controllo = inArray (numeriCpu, risposteUtente);
     if (controllo) {
       numeriUtente.push(risposteUtente);
